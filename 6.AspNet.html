@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASP.NET</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: beige; font-family: Roboto Condensed, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary" style="background-color: #454343; color: #c1bfb9;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" href="1.WebApi.html">Tecnologías de Web APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2.Microservicios.html">Microservicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3.DesarrolloApi.html">Desarrollo de APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="4.Contenedores.html">Manejo de Contenedores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.AplicacionesNube.html">Aplicaciones para la nube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.AspNet.html">Aplicaciones en web ASP.NET</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div style="align-items: center; font-size: 20px; margin-left: 30px; margin-right: 30px;">
+        <h1 class="text-center">Tecnologías para desarrollo de aplicaciones web en ASP.NET</h1>
+        <center><img src="img/1.aspnet.png" alt=""></center>
+        <br><br>
+
+        <h3 class="text-center">ASP.NET Core</h3>
+        <p>ASP.NET es un marco de desarrollo web popular para compilar aplicaciones web en la Plataforma .NET.</p>
+        <p>ASP.NET Core es la versión de código abierto de ASP.NET, que se ejecuta en macOS, Linux y Windows. ASP.NET Core se lanzó por primera vez en 2016 y es un rediseño de las versiones anteriores de ASP.NET solo para Windows.</p>
+        <br><br>
+
+
+        <h3 class="text-center">Características Clave de ASP.NET Core:</h3>
+        <div class="container">
+            <ol>
+              <li>Multiplataforma: Una de las características más destacadas de ASP.NET Core es su capacidad para funcionar en múltiples plataformas, incluyendo Windows, Linux y macOS. Esto significa que puedes desarrollar y alojar aplicaciones web ASP.NET Core en una variedad de sistemas operativos, lo que aumenta la flexibilidad de implementación.</li>
+              <li>Código Abierto: ASP.NET Core es un proyecto de código abierto respaldado por Microsoft y una comunidad activa de desarrolladores. Esto significa que tienes acceso al código fuente y puedes contribuir a su mejora, además de aprovechar las actualizaciones y correcciones de errores continuas.</li>
+              <li>Alto Rendimiento: ASP.NET Core está diseñado para ser altamente eficiente y escalable. Utiliza el servidor web Kestrel, que es rápido y liviano. Además, ofrece características como la ejecución en paralelo de solicitudes, lo que mejora el rendimiento y la capacidad de respuesta de tu aplicación.</li>
+              <li>Modularidad: ASP.NET Core se basa en una arquitectura modular. Esto significa que puedes incluir solo los componentes necesarios para tu aplicación, lo que resulta en un menor consumo de recursos y una aplicación más ligera.</li>
+              <li>Soporte para Contenedores: ASP.NET Core se integra de manera perfecta con tecnologías de contenedorización como Docker. Puedes empaquetar y distribuir aplicaciones ASP.NET Core en contenedores, lo que facilita la implementación y la administración de tus aplicaciones en entornos de contenedores.</li>
+              <li>Lenguajes de Programación: Aunque ASP.NET Core se asocia principalmente con C#, también es compatible con F# y Visual Basic.NET. Esto te brinda la flexibilidad de elegir el lenguaje de programación que mejor se adapte a tus necesidades.</li>
+              <li>Framework Web Moderno: ASP.NET Core es compatible con las prácticas de desarrollo web modernas, como el patrón Modelo-Vista-Controlador (MVC), el desarrollo de API RESTful y la autenticación flexible. Esto facilita la creación de aplicaciones web de vanguardia.</li>
+            </ol>
+          </div>
+        <br><br>
+
+
+        <h3 class="text-center">Pasos para crear una aplicacion web en ASP.NET Core</h3>
+        <center><img src="img/2.aspnet.png" alt=""></center><br>
+            <h5>Paso 1: Instalar las Herramientas de Desarrollo</h5>
+            <ul>
+                <li>Si aún no tienes las herramientas de desarrollo de ASP.NET Core instaladas, debes realizar esta instalación. Puedes descargar e instalar Visual Studio Community Edition, que es gratuito y completo para el desarrollo de aplicaciones web con ASP.NET Core, o puedes usar Visual Studio Code, que es un editor de código ligero y gratuito.</li>
+            </ul>
+
+            <h5>Paso 2: Crear un Nuevo Proyecto ASP.NET Core</h5>
+            <ul>
+                <li>Abre Visual Studio o Visual Studio Code.</li>
+                <li>En Visual Studio, ve a «Archivo» (File) > «Nuevo» (New) > «Proyecto» (Project). En Visual Studio Code, abre la terminal y crea una nueva carpeta para tu proyecto.</li>
+                <li>Selecciona la plantilla de proyecto ASP.NET Core que desees utilizar. Puedes elegir entre plantillas como «Aplicación web de MVC», «API web», «Aplicación web vacía», entre otras, según el tipo de aplicación que desees crear.</li>
+                <li>Especifica un nombre y una ubicación para tu proyecto y luego haz clic en «Crear» (Create) en Visual Studio o usa los comandos apropiados en Visual Studio Code para crear el proyecto.</li>
+            </ul>
+
+            <h5>Paso 3: Configurar y Personalizar la Aplicación</h5>
+            <ul>
+                <li>Una vez que se haya creado el proyecto, puedes configurar y personalizar la aplicación según tus necesidades. Esto puede incluir la configuración de enrutamiento, la definición de modelos, vistas y controladores, la configuración de autenticación y autorización, entre otras tareas.</li>
+            </ul>
+
+            <h5>Paso 4: Desarrollar la Aplicación</h5>
+            <ul>
+                <li>Comienza a desarrollar tu aplicación web escribiendo código en los archivos correspondientes. Si estás utilizando Visual Studio, puedes aprovechar las características de IntelliSense y depuración integradas para facilitar el desarrollo.</li>
+            </ul>
+
+            <h5>Paso 5: Compilar y Ejecutar la Aplicación</h5>
+            <ul>
+                <li>Para compilar y ejecutar la aplicación, simplemente presiona F5 en Visual Studio o usa el comando de ejecución en Visual Studio Code. Esto iniciará la aplicación en un servidor web local y la abrirá en tu navegador predeterminado.</li>
+            </ul>
+
+            <h5>Paso 6: Probar y Depurar la Aplicación</h5>
+            <ul>
+                <li>Prueba tu aplicación en el navegador y realiza pruebas para asegurarte de que funcione correctamente. Si encuentras errores, puedes depurar la aplicación utilizando las herramientas de depuración disponibles en tu entorno de desarrollo.</li>
+            </ul>
+
+            <h5>Paso 7: Implementar la Aplicación en un Servidor</h5>
+            <ul>
+                <li>Una vez que tu aplicación esté lista para ser publicada, debes implementarla en un servidor web real. Esto puede involucrar la configuración de un servidor, la implementación de medidas de seguridad y la gestión de la escalabilidad, dependiendo de tus necesidades.</li>
+            </ul>
+
+            <h5>Paso 8: Mantenimiento Continuo</h5>
+            <ul>
+                <li>Realiza un mantenimiento continuo de tu aplicación, lo que incluye la corrección de errores, la actualización de dependencias y la incorporación de nuevas características según sea necesario.</li>
+            </ul>
+        <br>
+        <p>Estos son los pasos generales para crear una aplicación web en ASP.NET Core. Ten en cuenta que los detalles específicos pueden variar según el tipo de proyecto y las herramientas que utilices.</p><br>
+
+
+    </div>
+  
+      <footer class="navbar navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/jose.llamasvalle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></i>
+                      Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

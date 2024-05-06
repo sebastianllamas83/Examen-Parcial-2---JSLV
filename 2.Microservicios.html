@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microservicios</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: beige; font-family: Roboto Condensed, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary" style="background-color: #454343; color: #c1bfb9;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" href="1.WebApi.html">Tecnologías de Web APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2.Microservicios.html">Microservicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3.DesarrolloApi.html">Desarrollo de APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="4.Contenedores.html">Manejo de Contenedores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.AplicacionesNube.html">Aplicaciones para la nube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.AspNet.html">Aplicaciones en web ASP.NET</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+      
+    <div style="align-items: center; font-size: 20px; margin-left: 30px; margin-right: 30px;">
+        <h1 class="text-center">Microservicios</h1>
+        <center><img src="img/1.microservicios.png" alt=""></center>
+        
+        <p>Los microservicios son un enfoque arquitectónico nativo de la nube en el que una sola aplicación se compone de muchos componentes o servicios más pequeños acoplados de forma flexible e independiente. Estos servicios tienen su propio lote de tecnología, que incluye la base de datos y el modelo de gestión de datos; se comunican entre sí mediante una combinación de API REST, transmisión de eventos y Message Brokers, y se organizan por capacidad de negocio, donde la línea que separa los servicios a menudo se denomina un contexto limitado.</p>
+    
+        <center><img src="img/2.microservicios.jpeg" alt=""></center>
+        <h3 class="text-center">Beneficios</h3>
+        <br>
+        <ul>
+            <li>
+              <strong>Agilidad:</strong> Fomentan una organización de equipos pequeños e independientes que se apropian de los servicios. Los equipos actúan en un contexto pequeño y bien comprendido, y están facultados para trabajar de forma más independiente y rápida.
+            </li>
+            <li>
+              <strong>Escalado flexible:</strong> Permiten que cada servicio se escale de forma independiente para satisfacer la demanda de la característica de la aplicación que respalda.
+            </li>
+            <li>
+              <strong>Implementación sencilla:</strong> Permiten la integración y la entrega continuas, lo que facilita probar nuevas ideas y revertirlas si algo no funciona. El bajo costo de los errores permite experimentar, facilita la actualización del código y acelera el tiempo de comercialización de las nuevas características.
+            </li>
+            <li>
+              <strong>Libertad tecnológica:</strong> Las arquitecturas no siguen un enfoque de "diseño único". Los equipos tienen la libertad de elegir la mejor herramienta para resolver sus problemas específicos.
+            </li>
+            <li>
+              <strong>Código reutilizable:</strong> La división del software en módulos pequeños y bien definidos les permite a los equipos usar funciones para diferentes propósitos. Un servicio escrito para una determinada función se puede usar como un componente básico para otra característica.
+            </li>
+            <li>
+              <strong>Resistencia:</strong> La independencia del servicio aumenta la resistencia de una aplicación a los errores. En una arquitectura monolítica, un error en un solo componente puede provocar un error en toda la aplicación. Con los microservicios, si hay un error en todo el servicio, las aplicaciones lo manejan degradando la funcionalidad sin bloquear toda la aplicación.
+            </li>
+          </ul>
+          <br>
+          <h5>A continuación, se muesrta una explicación más extendida sobre el tema.</h5>
+          <center><iframe width="560" height="315" src="https://www.youtube.com/embed/2sFczigWppk?si=zUXeAnHcnhspgzzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+    </div>
+
+    
+
+    <footer class="navbar navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/jose.llamasvalle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></i>
+                      Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>

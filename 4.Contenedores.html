@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de Contenedores</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: beige; font-family: Roboto Condensed, sans-serif;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-body-tertiary" style="background-color: #454343; color: #c1bfb9;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link" href="1.WebApi.html">Tecnologías de Web APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="2.Microservicios.html">Microservicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3.DesarrolloApi.html">Desarrollo de APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="4.Contenedores.html">Manejo de Contenedores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.AplicacionesNube.html">Aplicaciones para la nube</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.AspNet.html">Aplicaciones en web ASP.NET</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div style="align-items: center; font-size: 20px; margin-left: 30px; margin-right: 30px;">
+        <br>
+        <h1 class="text-center">Manejo de Contenedores</h1>
+        <center><img src="img/1.contenedor.jpeg" alt=""></center>
+        <br><br>
+        
+        <h3 class="text-center">Los contenedores</h3>
+        <p>Los contenedores son herramientas tecnológicas que encapsulan aplicaciones junto con su entorno de ejecución completo, permitiendo así su fácil traslado entre diferentes entornos, como los de desarrollo, prueba o producción, sin perder funcionalidad. Además de facilitar la movilidad de las aplicaciones, los contenedores son una parte esencial de la seguridad informática, ya que al integrar la seguridad en su flujo de trabajo, pueden ofrecer una infraestructura confiable y adaptable. Estas soluciones son especialmente útiles en entornos de nube, ya que permiten una distribución uniforme y funcional entre nubes públicas, privadas e híbridas, así como centros de datos.</p>
+        <br>
+
+        <h3 class="text-center">¿Para qué sirven los contenedores?</h3>
+        <p>Puede implementar los contenedores para una serie de cargas de trabajo y casos prácticos, sin importar su tamaño. Los contenedores brindan a su equipo la tecnología subyacente que se necesita para lograr un estilo de desarrollo nativo de la nube, y así poder comenzar con DevOps, CI/CD (integración e implementación continuas) e incluso con la informática sin servidor.</p>
+        <p>Las aplicaciones basadas en contenedores funcionan en arquitecturas de nube altamente distribuidas. El middleware de tiempo de ejecución de las aplicaciones ofrece las herramientas que respaldan un entorno unificado para el desarrollo, la distribución, la integración y la automatización.</p>
+        <p>También puede implementar tecnologías de integración en contenedores, que le permitirán expandir fácilmente la forma de conectar las aplicaciones y los datos, como la transmisión de datos en tiempo real a través de Apache Kafka. Si quiere diseñar una arquitectura de microservicios, los contenedores son la unidad de implementación ideal para cada microservicio y la malla de servicios que los conecta.</p>
+        <center><img src="img/2.contenedores.png" alt=""></center>
+        <br><br>
+
+        <h3 class="text-center">Ventajas de los contenedores</h3>
+        <p>Las ventajas de los contenedores incluyen la reducción de conflictos entre equipos de desarrollo y operaciones al separar las áreas de responsabilidad. Los desarrolladores pueden enfocarse en sus aplicaciones mientras que el equipo de operaciones se encarga de la infraestructura. Además, al basarse en tecnologías de código abierto, los contenedores ofrecen acceso a las últimas innovaciones de manera oportuna. Herramientas como Podman, Skopeo, Buildah, CRI-O, Kubernetes y Docker permiten simplificar y acelerar el desarrollo y despliegue de aplicaciones.</p>
+        <p>Los contenedores comparten el mismo kernel del sistema operativo y aislan los procesos de las aplicaciones, lo que facilita su migración entre diferentes configuraciones. Debido a su ligereza y portabilidad, los contenedores agilizan el desarrollo de aplicaciones y permiten a las empresas satisfacer rápidamente las demandas cambiantes del mercado.</p>
+        <br>
+
+        <h3 class="text-center">Creación</h3>
+        <ol>
+            <li>
+              <strong>Primero, debemos entender qué es un contenedor en HTML:</strong> Un contenedor es simplemente un elemento que envuelve a otros elementos, permitiendo agruparlos y aplicar estilos de forma conjunta. Los contenedores pueden ser utilizados para dividir una página en secciones, crear un diseño de columnas o simplemente agrupar elementos relacionados.
+            </li>
+            <li>
+              <strong>Para crear un contenedor en HTML:</strong> Utilizamos la etiqueta "div", que representa un contenedor genérico sin ningún significado específico, lo que nos brinda flexibilidad para adaptarlo a nuestras necesidades. Por ejemplo, podemos utilizar la siguiente estructura básica para crear un contenedor:
+            </li>
+            <li>
+              <strong>Una vez que hemos creado el contenedor:</strong> Podemos darle estilo utilizando CSS. La cascada de estilos nos permite aplicar reglas a los elementos contenidos en el contenedor de manera sencilla y eficiente. Podemos utilizar la propiedad `class` o `id` para identificar el contenedor y aplicar estilos específicos a él.
+            </li>
+            <li>
+              <strong>Para agregar una clase o un ID a nuestro contenedor:</strong> Utilizamos los atributos `class` o `id` respectivamente.
+            </li>
+          </ol>
+        <br>
+    </div>
+  
+    <h3 class="text-center">Tutorial de posicionamiento  de contenedores (div)</h3>
+    <p class="fs-4">Este es un tema muy interesante, por lo tanto, se recomienda mirar este tutorial para aprender del uso correcto de los divs</p>
+    <center><iframe width="660" height="415" src="https://www.youtube.com/embed/sOyA84uhoCQ?si=-OybT3Ul1R-Y3nzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+      <footer class="navbar navbar-dark bg-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/jose.llamasvalle">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                      </svg></i>
+                      Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
